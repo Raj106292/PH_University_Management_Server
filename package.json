@@ -2,13 +2,16 @@
   "name": "university-management-authentication-service",
   "version": "1.0.0",
   "description": "University Management Software",
-  "main": "src/server.ts",
+  "main": ".src/server.ts",
   "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only .src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raj Das",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
