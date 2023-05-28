@@ -1,0 +1,11 @@
+{
+  "name": "university-management-authentication-service",
+  "version": "1.0.0",
+  "description": "University Management Software",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raj Das",
+  "license": "ISC"
+}
