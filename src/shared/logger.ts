@@ -1,26 +1,54 @@
 import path from 'path'
-import winston from 'winston'
+import { createLogger, format, transports } from 'winston'
+import DailyRotateFile from 'winston-daily-rotate-file'
+const { combine, timestamp, label, printf, prettyPrint } = format
 
-export const logger = winston.createLogger({
+// custom log format
+const myFormat = printf(({ level, message, label, timestamp }) => {
+  const date = new Date(timestamp)
+  const hours = date.getHours()
+  const minutes = date.getMinutes()
+  return `${date.toDateString()} ${hours}:${minutes} [${label}] ${level}: ${message}`
+})
+
+export const logger = createLogger({
   level: 'info',
-  format: winston.format.json(),
+  format: combine(label({ label: 'PH' }), timestamp(), myFormat, prettyPrint()),
   transports: [
-    new winston.transports.Console(), // display the log in the console
-    new winston.transports.File({
-      filename: path.join(process.cwd(), 'logs', 'winston', 'success.log'),
-      level: 'info',
+    new transports.Console(), // display the log in the console
+    new DailyRotateFile({
+      filename: path.join(
+        process.cwd(),
+        'logs',
+        'winston',
+        'successes',
+        'phu-%DATE%-success.log' // store the success log with rotation in the successes folder
+      ),
+      datePattern: 'YYYY-DD-MM-HH',
+      zippedArchive: true,
+      maxSize: '20m',
+      maxFiles: '14d',
     }),
   ],
 })
 
-export const errorLogger = winston.createLogger({
+export const errorLogger = createLogger({
   level: 'error',
-  format: winston.format.json(),
+  format: combine(label({ label: 'PH' }), timestamp(), myFormat, prettyPrint()),
   transports: [
-    new winston.transports.Console(), // display the log in the console
-    new winston.transports.File({
-      filename: path.join(process.cwd(), 'logs', 'winston', 'error.log'),
-      level: 'error',
+    new transports.Console(), // display the log in the console
+    new DailyRotateFile({
+      filename: path.join(
+        process.cwd(),
+        'logs',
+        'winston',
+        'errors',
+        'phu-%DATE%-error.log' // store the error logs with rotation in the errors folder
+      ),
+      datePattern: 'YYYY-DD-MM-HH',
+      zippedArchive: true,
+      maxSize: '20m',
+      maxFiles: '14d',
     }),
   ],
 })
