@@ -13,7 +13,8 @@ app.use(express.urlencoded({ extended: true })) // encoded data
 app.use('/api/v1/users', UserRoute)
 
 app.get('/', async (req: Request, res: Response) => {
-  res.send('Server is ready to work')
+  res.send('Server is working fine')
+  // throw new Error('Testing error logger')
 })
 
 //global error handler
