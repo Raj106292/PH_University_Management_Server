@@ -1,11 +1,22 @@
-import { ErrorRequestHandler } from 'express' // error type of global request handler
+/* eslint-disable no-unused-expressions */
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express' // error type of global request handler
 import config from '../../config'
 import APIError from '../../errors/APIError'
 import handleValidationError from '../../errors/handleValidationError'
 import { IGenericErrorMessage } from '../../interfaces/error'
+import { errorLogger } from '../../shared/logger'
 
 // global error handler
-const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+const globalErrorHandler: ErrorRequestHandler = (
+  error,
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  config.env === 'development'
+    ? console.log('🧨 global error handler', error)
+    : errorLogger.error('🧨 global error handler', error)
+
   let statusCode = 500
   let message = 'Internal Server Error'
   let errorMessages: IGenericErrorMessage[] = []
