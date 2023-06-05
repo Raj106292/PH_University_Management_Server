@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\.01300744ac6091a2130d7354ac589ce44d77656a-audit.json",
-    "files": [
-        {
-            "date": 1685817471090,
-            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-06-04-00-error.log",
-            "hash": "2f51935d44a20ac164e938c557c8d3792a862c066441cd52e4df9acb7681d5d3"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\.01300744ac6091a2130d7354ac589ce44d77656a-audit.json",
+  "files": [
+    {
+      "date": 1685817471090,
+      "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-06-04-00-error.log",
+      "hash": "2f51935d44a20ac164e938c557c8d3792a862c066441cd52e4df9acb7681d5d3"
+    }
+  ],
+  "hashType": "sha256"
 }

@@ -11,7 +11,7 @@
     "rules": {
       "no-unused-vars": "error",
       // "no-console": "error",
-      "no-undefined": "error",
+      // "no-undefined": "error",
       "no-unused-expressions": "error",
       "no-unreachable": "error",
       "@typescript-eslint/consistent-type-definitions": ["error", "type"]
@@ -19,6 +19,10 @@
   
     "env": {
       "browser": true,
-      "es2021": true
+      "es2021": true,
+      "node":true
+    },
+    "globals":{
+      "process": "readonly"
     }
   }
