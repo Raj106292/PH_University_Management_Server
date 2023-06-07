@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod';
 
 // req validation
 // body contains -> object type data
@@ -11,8 +11,8 @@ const createUserZodSchema = z.object({
     }),
     password: z.string().optional(),
   }),
-})
+});
 
-export const USerValidation = {
+export const UserValidation = {
   createUserZodSchema,
-}
+};

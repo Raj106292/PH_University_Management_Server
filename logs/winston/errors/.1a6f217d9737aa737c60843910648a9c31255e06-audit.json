@@ -29,6 +29,11 @@
             "date": 1686154551186,
             "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-07-06-22-error.log",
             "hash": "936f30251e23bf03727a25afbe03d0aff79d4a40e645e77657702a5c362817ef"
+        },
+        {
+            "date": 1686162974320,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-08-06-00-error.log",
+            "hash": "167f213d51e514f08992fdf7dd200cd39adabb301e655111bb2aaca675ed8ffc"
         }
     ],
     "hashType": "sha256"
