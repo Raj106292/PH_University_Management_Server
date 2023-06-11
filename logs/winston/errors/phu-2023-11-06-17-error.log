@@ -1,0 +1,4 @@
+Sun Jun 11 2023 17:43 [PH] error: Cast to number failed for value "2024" (type number) at path "year" for model "AcademicSemester"
+Sun Jun 11 2023 17:44 [PH] error: Cast to number failed for value "2024" (type number) at path "year" for model "AcademicSemester"
+Sun Jun 11 2023 17:44 [PH] error: Cast to number failed for value "2024" (type number) at path "year" for model "AcademicSemester"
+Sun Jun 11 2023 17:50 [PH] error: Invalid semester code

@@ -69,6 +69,61 @@
             "date": 1686262383054,
             "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-09-06-04-error.log",
             "hash": "9e2c4aeca9fb408779491d87f4b9cadb5ffff502314faf9f9044764a5c2cff74"
+        },
+        {
+            "date": 1686418649733,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-10-06-23-error.log",
+            "hash": "14a1e1a082da4fb5fe6456e6cbfc93ed5a16381725a6dc9f224ae9af67684540"
+        },
+        {
+            "date": 1686420263266,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-00-error.log",
+            "hash": "1b4e942cd8ad1709a3d4e9ad24113c1b13a1b48c7b68db4fec1f66fd7d332295"
+        },
+        {
+            "date": 1686459576686,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-10-error.log",
+            "hash": "17f8143ef8831f7fada79e859a3270eea39e4141caad7b9dafb48e300d942c3d"
+        },
+        {
+            "date": 1686459677053,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-11-error.log",
+            "hash": "ee730e77eac56450dfaf7b21207ce48ad85bee102ef76ed151e42ca20210d500"
+        },
+        {
+            "date": 1686463202321,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-12-error.log",
+            "hash": "fbb4462eb6111ff38a64b6881e65a08fd2e4310f197548cac7fb1d573f413334"
+        },
+        {
+            "date": 1686468039680,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-13-error.log",
+            "hash": "2e5775f9639fb6f35b6523f154dc79ec793863a43919cd7eca8d3ed86dc7d381"
+        },
+        {
+            "date": 1686473083224,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-14-error.log",
+            "hash": "637ecc9f5e783a787d17e201e09265fe6e6872eee670e5a64bc8fa2688197823"
+        },
+        {
+            "date": 1686483436837,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-17-error.log",
+            "hash": "097367c6430814bd7d81f90aeb2d775c78c0b643c8213051012e8505c121e20f"
+        },
+        {
+            "date": 1686485338907,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-11-06-18-error.log",
+            "hash": "545313e48e0dc6e8859a4dcb88ac8d7bdacd1ce564dbacba31c9bffb3801ebdc"
+        },
+        {
+            "date": 1686507869335,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-12-06-00-error.log",
+            "hash": "dd923c6fcb905c5e7be3160b4b49f37d6e50f082a9377660c1083f55a5684173"
+        },
+        {
+            "date": 1686510476030,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-12-06-01-error.log",
+            "hash": "2cf0fc4848bf0f1b0d8ef1241b2ba3f8973825719ca39b8fd1369f84cd8430f3"
         }
     ],
     "hashType": "sha256"
