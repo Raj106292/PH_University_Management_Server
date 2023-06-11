@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-expressions */
 import { ErrorRequestHandler, NextFunction, Request, Response } from 'express'; // error type of global request handler
+import { Error } from 'mongoose';
 import { ZodError } from 'zod';
 import config from '../../config';
 import APIError from '../../errors/APIError';
+import handleCastError from '../../errors/handleCastError';
 import handleValidationError from '../../errors/handleValidationError';
 import handleZodError from '../../errors/handleZodError';
 import { IGenericErrorMessage } from '../../interfaces/error';
@@ -33,6 +35,11 @@ const globalErrorHandler: ErrorRequestHandler = (
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
+  } else if (error?.name === 'CastError') {
+    const simplifiedError = handleCastError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
   } else if (error instanceof APIError) {
     statusCode = error?.statusCode;
     message = error?.message;
@@ -60,7 +67,7 @@ const globalErrorHandler: ErrorRequestHandler = (
     success: false,
     message,
     errorMessages,
-    stack: config.env === 'development' ? error?.stack : undefined,
+    stack: config.env !== 'production' ? error?.stack : undefined,
   });
   next();
 };
