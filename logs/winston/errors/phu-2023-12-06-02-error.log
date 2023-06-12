@@ -1,0 +1,10 @@
+Mon Jun 12 2023 2:7 [PH] error: Cast to ObjectId failed for value "6485b57ccbbe5bfd812f" (type string) at path "_id" for model "AcademicSemester"
+Mon Jun 12 2023 2:9 [PH] error: Cast to ObjectId failed for value "6485b57ccbbe5bfd812f" (type string) at path "_id" for model "AcademicSemester"
+Mon Jun 12 2023 2:10 [PH] error: Cast to ObjectId failed for value "6485b57ccbbe5bfd812f" (type string) at path "_id" for model "AcademicSemester"
+Mon Jun 12 2023 2:14 [PH] error: Academic Semester is already exists for the selected year
+Mon Jun 12 2023 2:15 [PH] error: Academic Semester is already exists for the selected year
+Mon Jun 12 2023 2:17 [PH] error: Invalid semester code
+Mon Jun 12 2023 2:35 [PH] error: Cast to ObjectId failed for value "6485b57ccbbe5bfd812f" (type string) at path "_id" for model "AcademicSemester"
+Mon Jun 12 2023 2:47 [PH] error: Cast to ObjectId failed for value "6485b57ccbbe5bfd8" (type string) at path "_id" for model "AcademicSemester"
+Mon Jun 12 2023 2:50 [PH] error: Cast to ObjectId failed for value "6485b57ccbbe5bfd8" (type string) at path "_id" for model "AcademicSemester"
+Mon Jun 12 2023 2:53 [PH] error: Cast to ObjectId failed for value "6485b57ccbbe5bfd8" (type string) at path "_id" for model "AcademicSemester"
