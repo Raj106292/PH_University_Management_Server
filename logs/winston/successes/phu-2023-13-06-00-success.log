@@ -1,0 +1,36 @@
+{
+  message: '😍 Database connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T18:19:03.730Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T18:19:03.748Z'
+}
+{
+  message: '😍 Database connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T18:20:56.720Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T18:20:56.734Z'
+}
+{
+  message: '😍 Database connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T18:30:13.606Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T18:30:13.642Z'
+}

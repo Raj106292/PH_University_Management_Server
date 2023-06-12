@@ -15,7 +15,6 @@ app.use('/api/v1', routes);
 
 app.get('/', async (req: Request, res: Response) => {
   res.send('Server is working fine');
-  // throw new Error('Testing error logger')
 });
 
 //global error handler
