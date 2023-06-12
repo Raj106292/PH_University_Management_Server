@@ -214,6 +214,11 @@
             "date": 1686572164282,
             "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\successes\\phu-2023-12-06-18-success.log",
             "hash": "6f52f898f677d2bc216f9cd182f22b129ab5992be32f8dfee58c9deeb79ae36f"
+        },
+        {
+            "date": 1686593940740,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\successes\\phu-2023-13-06-00-success.log",
+            "hash": "ea8205290651b6323a80e518bd2a27607f599c9c6162735bfcf1f43201ba02fc"
         }
     ],
     "hashType": "sha256"

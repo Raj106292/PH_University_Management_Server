@@ -82,3 +82,15 @@
   label: 'PH',
   timestamp: '2023-06-12T12:40:41.853Z'
 }
+{
+  message: '😍 Database connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T12:41:01.446Z'
+}
+{
+  message: 'Server is running on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-12T12:41:01.465Z'
+}
