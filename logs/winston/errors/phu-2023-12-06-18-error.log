@@ -1,0 +1,3 @@
+Mon Jun 12 2023 18:22 [PH] error: Invalid semester code
+Mon Jun 12 2023 18:40 [PH] error: Cast to ObjectId failed for value "64862456b1291120fa57b" (type string) at path "_id" for model "AcademicSemester"
+Mon Jun 12 2023 18:40 [PH] error: Cast to ObjectId failed for value "64862456b1291120fa57b" (type string) at path "_id" for model "AcademicSemester"
