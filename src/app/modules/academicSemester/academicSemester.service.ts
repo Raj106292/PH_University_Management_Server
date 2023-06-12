@@ -15,17 +15,12 @@ import {
 import { AcademicSemester } from './academicSemester.model';
 
 const createAcademicSemester = async (
-  academicSemester: IAcademicSemester
+  payload: IAcademicSemester
 ): Promise<IAcademicSemester> => {
-  if (
-    academicSemesterTitleCodeMapper[academicSemester.title] !==
-    academicSemester.code
-  ) {
+  if (academicSemesterTitleCodeMapper[payload.title] !== payload.code) {
     throw new APIError(httpStatus.BAD_REQUEST, 'Invalid semester code');
   }
-  const createAcademicSemester = await AcademicSemester.create(
-    academicSemester
-  );
+  const createAcademicSemester = await AcademicSemester.create(payload);
   if (!createAcademicSemester) {
     throw new APIError(400, 'Failed to create Academic Semester');
   }
@@ -93,8 +88,19 @@ const getSingleSemester = async (
   return result;
 };
 
+const updateSemester = async (
+  id: string,
+  payload: Partial<IAcademicSemester>
+): Promise<IAcademicSemester | null> => {
+  const result = await AcademicSemester.findOneAndUpdate({ _id: id }, payload, {
+    new: true,
+  });
+  return result;
+};
+
 export const AcademicSemesterService = {
   createAcademicSemester,
   getAllSemesters,
   getSingleSemester,
+  updateSemester,
 };
