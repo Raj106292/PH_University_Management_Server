@@ -164,6 +164,21 @@
             "date": 1686593940749,
             "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-13-06-00-error.log",
             "hash": "f8a7bfdc5de6343d6d14accd029cf328160c4a93a860e84f85b1d732298acbf0"
+        },
+        {
+            "date": 1686605957418,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-13-06-03-error.log",
+            "hash": "22e048f73e27043cbf777fb89ef77bb821861ab314911f92a81e90b977db0776"
+        },
+        {
+            "date": 1686730708763,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-14-06-14-error.log",
+            "hash": "27dd35d2258780035ad070b2a61a1b2ed6ed6b8f2b80912f453dcba4dc94fe6d"
+        },
+        {
+            "date": 1686807140916,
+            "name": "E:\\Next Level Web Development\\mission-3-be-a-nosql-backend-brainiac\\University-management-authentication-service\\logs\\winston\\errors\\phu-2023-15-06-11-error.log",
+            "hash": "a6fc9703bf5b950bafc59cbbc4fd0b5a5bea84896f9ab91a0a2726dce27259fa"
         }
     ],
     "hashType": "sha256"

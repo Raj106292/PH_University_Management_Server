@@ -1,0 +1,1 @@
+Thu Jun 15 2023 11:34 [PH] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"

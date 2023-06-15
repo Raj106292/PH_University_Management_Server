@@ -1,4 +1,5 @@
 import express from 'express';
+// import { AcademicDepartmentRoute } from '../modules/academicDepartment/academicDepartment.route';
 import { AcademicFacultyRoute } from '../modules/academicFaculty/academicFaculty.route';
 import { AcademicSemesterRoute } from '../modules/academicSemester/academicSemester.route';
 import { UserRoute } from '../modules/user/user.route';
@@ -16,9 +17,13 @@ const moduleRoutes = [
     route: AcademicSemesterRoute,
   },
   {
-    path: '/academic-faculty',
+    path: '/academic-faculties',
     route: AcademicFacultyRoute,
   },
+  // {
+  //   path: '/academic-departments',
+  //   route: AcademicDepartmentRoute,
+  // },
 ];
 
 moduleRoutes.forEach(route => router.use(route.path, route.route));
