@@ -1,5 +1,4 @@
 import { Schema, model } from 'mongoose';
-import { AcademicFacultyModel } from '../academicFaculty/academicFaculty.interface';
 import {
   AcademicDepartmentModel,
   IAcademicDepartment,
@@ -31,5 +30,5 @@ const AcademicDepartmentSchema = new Schema<
 
 export const AcademicDepartment = model<
   IAcademicDepartment,
-  AcademicFacultyModel
+  AcademicDepartmentModel
 >('AcademicDepartMent', AcademicDepartmentSchema);
