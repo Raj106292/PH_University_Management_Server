@@ -1,0 +1,1 @@
+Thu Jun 15 2023 12:2 [PH] error: Cast to ObjectId failed for value "68676f0ddf24c93f5" (type string) at path "_id" for model "AcademicFaculty"

@@ -1,0 +1,5 @@
+Tue Jun 13 2023 3:42 [PH] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
+Tue Jun 13 2023 3:44 [PH] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
+Tue Jun 13 2023 3:45 [PH] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
+Tue Jun 13 2023 3:53 [PH] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
+Tue Jun 13 2023 3:59 [PH] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"

@@ -15,7 +15,7 @@ const createFaculty = async (
 ): Promise<IAcademicFaculty> => {
   const createFaculty = await AcademicFaculty.create(payload);
   if (!createFaculty) {
-    throw new APIError(400, 'Failed to create Academic Semester');
+    throw new APIError(400, 'Failed to create Academic Faculty');
   }
   return createFaculty;
 };
@@ -41,7 +41,7 @@ const getAllFaculties = async (
     });
   }
 
-  if (Object.keys(filtersData).length > 0) {
+  if (Object.keys(filtersData).length) {
     andConditions.push({
       $and: Object.entries(filtersData).map(([field, value]) => ({
         [field]: value,
@@ -54,7 +54,6 @@ const getAllFaculties = async (
   if (sortBy && sortOrder) {
     sortConditions[sortBy] = sortOrder;
   }
-
   const whereConditions =
     andConditions.length > 0 ? { $and: andConditions } : {};
 
@@ -62,6 +61,7 @@ const getAllFaculties = async (
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
+
   const total = await AcademicFaculty.countDocuments();
 
   return {
@@ -91,8 +91,10 @@ const updateFaculty = async (
   return result;
 };
 
-const deleteFaculty = async (id: string): Promise<IAcademicFaculty | null> => {
-  const result = await AcademicFaculty.findOneAndDelete({ _id: id });
+const deleteByIdFromDB = async (
+  id: string
+): Promise<IAcademicFaculty | null> => {
+  const result = await AcademicFaculty.findByIdAndDelete(id);
   return result;
 };
 
@@ -101,5 +103,5 @@ export const AcademicFacultyService = {
   getAllFaculties,
   getSingleFaculty,
   updateFaculty,
-  deleteFaculty,
+  deleteByIdFromDB,
 };

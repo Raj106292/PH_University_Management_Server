@@ -2,11 +2,11 @@
   message: '😍 Database connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-05T06:16:49.654Z'
+  timestamp: '2023-06-16T21:36:46.499Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-05T06:16:49.688Z'
+  timestamp: '2023-06-16T21:36:46.531Z'
 }

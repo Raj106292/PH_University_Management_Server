@@ -8,7 +8,7 @@ const router = express.Router();
 router.post(
   '/create-faculty',
   validateRequest(AcademicFacultyValidation.createFacultyZodSchema),
-  AcademicFacultyController.createAcademicFaculty
+  AcademicFacultyController.createFaculty
 );
 
 router.get('/:id', AcademicFacultyController.getSingleFaculty);
