@@ -2,71 +2,59 @@
   message: '😍 Database connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:25:00.513Z'
+  timestamp: '2023-06-19T07:04:44.592Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:25:00.550Z'
+  timestamp: '2023-06-19T07:04:44.629Z'
 }
 {
   message: '😍 Database connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:26:07.386Z'
+  timestamp: '2023-06-19T07:07:21.282Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:26:07.415Z'
+  timestamp: '2023-06-19T07:07:21.299Z'
 }
 {
   message: '😍 Database connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:43:48.030Z'
+  timestamp: '2023-06-19T07:12:42.034Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:43:48.070Z'
+  timestamp: '2023-06-19T07:12:42.058Z'
 }
 {
   message: '😍 Database connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:52:27.392Z'
+  timestamp: '2023-06-19T07:15:54.391Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:52:27.422Z'
+  timestamp: '2023-06-19T07:15:54.409Z'
 }
 {
   message: '😍 Database connected successfully',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:54:44.972Z'
+  timestamp: '2023-06-19T07:19:29.210Z'
 }
 {
   message: 'Server is running on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-15T07:54:45.020Z'
-}
-{
-  message: '😍 Database connected successfully',
-  level: 'info',
-  label: 'PH',
-  timestamp: '2023-06-15T07:58:33.983Z'
-}
-{
-  message: 'Server is running on port 5000',
-  level: 'info',
-  label: 'PH',
-  timestamp: '2023-06-15T07:58:34.062Z'
+  timestamp: '2023-06-19T07:19:29.229Z'
 }

@@ -1,0 +1,7 @@
+Sat Jun 17 2023 14:41 [PH] error: Schema hasn't been registered for model "AcademicDepartment".
+Use mongoose.model(name, schema)
+Sat Jun 17 2023 14:44 [PH] error: E11000 duplicate key error collection: university-management.students index: email_1 dup key: { email: "raj@gmail.com" }
+Sat Jun 17 2023 14:47 [PH] error: Schema hasn't been registered for model "AcademicDepartment".
+Use mongoose.model(name, schema)
+Sat Jun 17 2023 14:53 [PH] error: Schema hasn't been registered for model "AcademicDepartment".
+Use mongoose.model(name, schema)

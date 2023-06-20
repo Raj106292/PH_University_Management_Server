@@ -4,7 +4,7 @@ import {
   IAcademicDepartment,
 } from './academicDepartment.interface';
 
-const AcademicDepartmentSchema = new Schema<
+const academicDepartmentSchema = new Schema<
   IAcademicDepartment,
   AcademicDepartmentModel
 >(
@@ -31,4 +31,4 @@ const AcademicDepartmentSchema = new Schema<
 export const AcademicDepartment = model<
   IAcademicDepartment,
   AcademicDepartmentModel
->('AcademicDepartMent', AcademicDepartmentSchema);
+>('AcademicDepartment', academicDepartmentSchema);

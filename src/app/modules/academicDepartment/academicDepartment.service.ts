@@ -13,7 +13,9 @@ import { AcademicDepartment } from './academicDepartment.model';
 const createDepartment = async (
   payload: IAcademicDepartment
 ): Promise<IAcademicDepartment> => {
-  const createDepartment = await AcademicDepartment.create(payload);
+  const createDepartment = (await AcademicDepartment.create(payload)).populate(
+    'academicFaculty'
+  );
   if (!createDepartment) {
     throw new APIError(400, 'Failed to create Academic Department');
   }
@@ -58,6 +60,7 @@ const getAllDepartments = async (
     andConditions.length > 0 ? { $and: andConditions } : {};
 
   const result = await AcademicDepartment.find(whereConditions)
+    .populate('academicFaculty')
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
@@ -77,7 +80,9 @@ const getAllDepartments = async (
 const getSingleDepartment = async (
   id: string
 ): Promise<IAcademicDepartment | null> => {
-  const result = await AcademicDepartment.findById(id);
+  const result = await AcademicDepartment.findById(id).populate(
+    'academicFaculty'
+  );
   return result;
 };
 
@@ -91,14 +96,16 @@ const updateDepartment = async (
     {
       new: true,
     }
-  );
+  ).populate('academicFaculty');
   return result;
 };
 
 const deleteDepartment = async (
   id: string
 ): Promise<IAcademicDepartment | null> => {
-  const result = await AcademicDepartment.findByIdAndDelete(id);
+  const result = await AcademicDepartment.findByIdAndDelete(id).populate(
+    'academicFaculty'
+  );
   return result;
 };
 
